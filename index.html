@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo minato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <ul>
+                <!--logo-->
+                <li><img class="logo"
+                        src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Boolean/original.png?1623187562"
+                        alt=""></li>
+                <!--titolo-->
+                <li class="titolo">
+                    <h1>Campo minato</h1>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <!--bottone-->
+            <label for="livello">difficoltà</label>
+            <select name="livello" id="livello">
+                <option value="facile" class="facile">facile</option>
+                <option value="medio" class="medio">medio</option>
+                <option value="difficile" class="difficile">difficile</option>
+            </select>
+            <button class="btn">
+                play
+            </button>
+            <button type="reset"  class="reset">reset</button>
+        </div>
+    </header>
+    <main>
+      <div class="containergioco">
+
+      </div>
+    </main>
+    <footer>
+        <!--container footer-->
+        <div class="containerfooter">
+            <span>Made with</span>
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span>By <a href="#">Boolean</a></span>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  fine reset*/
+body{
+    height: 100vh
+}
+main{
+    background-color:#7fffd4 ;
+    display: flex;
+    height: calc(100vh - 100px);
+
+}
+
+header{
+ height: 60px;
+ display: flex;
+ justify-content: space-between;
+}
+
+footer{
+    height: 40px
+}
+
+.logo{
+    width: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+.titolo{
+    vertical-align: top ;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.containerfooter{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.fa-heart{
+    font-size: 10px;
+}
+
+.cella{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: #7fffd4;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containergioco{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 600px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+
+.color{
+    background-color: blue;
+}
+
+.reset{
+    margin-right: 20px;
+    width: 100px;
+}
